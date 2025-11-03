@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anima App</title>
+  <link rel="stylesheet" href="styles.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+  content: [],
+  theme: {
+    extend: {
+      fontFamily: {
+        ui_sans_serif: [
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji'
+        ],
+        instrument_sans: [
+          'Instrument Sans',
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji'
+        ],
+        sofia_pro_light: [
+          'Sofia Pro Light',
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji'
+        ],
+        open_sans: [
+          'Open Sans',
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji'
+        ],
+        georgia: [
+          'Georgia',
+          'Times New Roman',
+          'Times',
+          'serif'
+        ],
+        gtstandard_m: [
+          'GTStandard-M',
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji'
+        ]
+      }
+    }
+  }
+};
+</script>
+
+  <style>
+    @font-face {
+      font-family: 'Instrument Sans';
+      src: url('https://everydaymeds.co.uk/cdn/shop/t/2/assets/InstrumentSans-Regular.woff2?v=54408375051196579871746782821');
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+
+  <style>
+    @font-face {
+      font-family: 'Open Sans';
+      src: url('https://c.animaapp.com/mhiyf2riFan5kf/assets/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body class="relative text-slate-900 text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc max-w-[375px] overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-ui_sans_serif md:max-w-screen-xl"><div class="box-border caret-transparent overflow-x-hidden overflow-y-auto w-full"><body class="relative text-neutral-700 text-[15px] bg-fixed bg-white bg-[linear-gradient(to_right_bottom,rgb(253,254,255),rgb(240,248,249),rgb(232,244,245))] box-border caret-transparent flex flex-col leading-[25.71px] max-w-[375px] min-h-[1000px] break-words overflow-x-hidden overflow-y-auto pb-[65px] font-instrument_sans md:max-w-screen-xl md:pb-0"><div class="static box-border caret-transparent break-words z-auto font-sofia_pro_light md:relative md:z-[12]"><section class="text-zinc-900 bg-[linear-gradient(135deg,rgb(44,122,126),rgb(59,155,159))] box-border caret-transparent break-words overflow-hidden"><div class="relative box-border caret-transparent break-words w-full overflow-hidden"><div class="box-border caret-transparent break-words"><div class="box-border caret-transparent gap-x-12 flex break-words gap-y-12"><div class="items-center box-border caret-transparent gap-x-12 flex shrink-0 break-words gap-y-12 text-nowrap translate-x-[-1614.61px] w-max md:translate-x-[-1798.33px]"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/19.svg" alt="Free Delivery on Orders Above £30" class="aspect-[auto_40_/_26] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Free Delivery on Orders Above £30</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/20.svg" alt="Guaranteed Fast Approval & Delivery Promise" class="aspect-[auto_34_/_34] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Guaranteed Fast Approval &amp; Delivery Promise</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/21.svg" alt="⁠⁠PayPal - Pay In 3 Interest Free Installment" class="aspect-[auto_25_/_25] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">⁠⁠PayPal - Pay In 3 Interest Free Installment</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/19.svg" alt="Free Delivery on Orders Above £30" class="aspect-[auto_40_/_26] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Free Delivery on Orders Above £30</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/20.svg" alt="Guaranteed Fast Approval & Delivery Promise" class="aspect-[auto_34_/_34] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Guaranteed Fast Approval &amp; Delivery Promise</span>
+</div>
+</div>
+<div class="items-center box-border caret-transparent gap-x-12 flex shrink-0 break-words gap-y-12 text-nowrap translate-x-[-1614.61px] w-max md:translate-x-[-1798.33px]"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/19.svg" alt="Free Delivery on Orders Above £30" class="aspect-[auto_40_/_26] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Free Delivery on Orders Above £30</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/20.svg" alt="Guaranteed Fast Approval & Delivery Promise" class="aspect-[auto_34_/_34] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Guaranteed Fast Approval &amp; Delivery Promise</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/21.svg" alt="⁠⁠PayPal - Pay In 3 Interest Free Installment" class="aspect-[auto_25_/_25] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">⁠⁠PayPal - Pay In 3 Interest Free Installment</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/19.svg" alt="Free Delivery on Orders Above £30" class="aspect-[auto_40_/_26] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Free Delivery on Orders Above £30</span>
+</div>
+<div class="relative items-center box-border caret-transparent gap-x-2.5 flex leading-[15px] break-words gap-y-2.5 text-nowrap py-2.5 after:accent-auto after:bg-white after:box-border after:caret-transparent after:text-zinc-900 after:block after:text-[15px] after:not-italic after:normal-nums after:font-normal after:h-[18px] after:tracking-[normal] after:leading-[15px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:text-nowrap after:visible after:w-px after:ml-6 after:border-separate after:font-sofia_pro_light"><span class="items-center box-border caret-transparent flex basis-5 shrink-0 h-5 justify-center break-words text-nowrap w-5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/20.svg" alt="Guaranteed Fast Approval & Delivery Promise" class="aspect-[auto_34_/_34] box-border caret-transparent h-full max-w-full object-contain break-words text-nowrap w-full" />
+</span>
+<span class="text-white text-[11px] font-bold box-border caret-transparent block tracking-[0.2px] leading-[11px] break-words text-nowrap md:text-[13px] md:leading-[13px]">Guaranteed Fast Approval &amp; Delivery Promise</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<header class="sticky bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent break-words z-50 top-0"><div class="box-border caret-transparent max-w-[1400px] break-words mx-auto px-6"><div class="items-center box-border caret-transparent gap-x-6 flex justify-between break-words gap-y-6 py-2"><div class="items-center box-border caret-transparent flex break-words"><a href="/" aria-label="Smart Pharmacy" class="box-border caret-transparent block break-words"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/new-updated-logo-smart-pharmacy-(1).png" alt="Smart Pharmacy" class="box-border caret-transparent h-12 max-w-full break-words md:h-16" />
+</a>
+</div>
+<div class="box-border caret-transparent flex basis-[0%] grow justify-center break-words"><nav class="items-center box-border caret-transparent gap-x-1 hidden min-h-0 min-w-0 break-words gap-y-1 md:flex md:min-h-[auto] md:min-w-[auto]"><div class="relative box-border caret-transparent min-h-0 min-w-0 break-words md:min-h-[auto] md:min-w-[auto]"><button class="text-neutral-900 text-base font-medium bg-transparent caret-transparent leading-6 break-words text-center px-3 py-1.5 rounded-lg hover:text-teal-500 hover:bg-gray-50">Men&#39;s Health</button>
+</div>
+<a href="/pages/womens-health" class="text-neutral-900 text-base font-medium box-border caret-transparent inline leading-6 min-h-0 min-w-0 break-words px-3 py-1.5 rounded-lg md:block md:min-h-[auto] md:min-w-[auto] hover:text-teal-500 hover:bg-gray-50">Women&#39;s Health</a>
+<div class="relative box-border caret-transparent min-h-0 min-w-0 break-words md:min-h-[auto] md:min-w-[auto]"><button class="text-neutral-900 text-base font-medium items-center bg-transparent caret-transparent gap-x-1 flex leading-6 break-words gap-y-1 text-center px-3 py-1.5 rounded-lg hover:text-teal-500 hover:bg-gray-50">Shop<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-5.svg" alt="Icon" class="box-border caret-transparent h-4 w-4" />
+</button>
+</div>
+<a href="/pages/about-us" class="text-neutral-900 text-base font-medium box-border caret-transparent inline leading-6 min-h-0 min-w-0 break-words px-3 py-1.5 rounded-lg md:block md:min-h-[auto] md:min-w-[auto] hover:text-teal-500 hover:bg-gray-50">About</a>
+</nav>
+</div>
+<div class="items-center box-border caret-transparent gap-x-4 flex break-words gap-y-4"><div class="text-neutral-900 items-center box-border caret-transparent flex h-11 min-h-[auto] min-w-[auto] break-words w-11 md:hidden md:min-h-0 md:min-w-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-3.svg" alt="Icon" class="box-border caret-transparent block h-3.5 max-w-full min-h-[auto] min-w-[auto] break-words w-[22px] z-[1] md:inline md:min-h-0 md:min-w-0" />
+</div>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><div class="box-border caret-transparent hidden min-h-0 min-w-0 break-words md:block md:min-h-[auto] md:min-w-[auto]"><form role="search" class="box-border caret-transparent break-words"><div class="relative items-center box-border caret-transparent flex break-words"><button aria-label="Search" class="absolute text-neutral-400 bg-transparent caret-transparent block break-words text-center p-0 left-3 hover:text-neutral-900"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-6.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</button>
+<input type="search" name="q" placeholder="Search medicines..." class="text-sm bg-gray-50 box-border caret-transparent block h-11 leading-5 min-h-0 min-w-0 -outline-offset-2 break-words w-[280px] border border-gray-200 pl-10 pr-4 py-0 rounded-full border-solid md:min-h-[auto] md:min-w-[auto]" />
+</div>
+</form>
+</div>
+<button aria-label="account" class="bg-transparent caret-transparent block break-words text-center p-2 rounded-full hover:bg-gray-100"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7.svg" alt="Icon" class="text-neutral-900 box-border caret-transparent h-6 w-6" />
+</button>
+<a href="/cart" class="relative box-border caret-transparent block break-words p-2 rounded-full hover:bg-gray-100"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-8.svg" alt="Icon" class="text-neutral-900 box-border caret-transparent h-6 w-6" />
+<span class="absolute text-white text-xs items-center bg-red-500 box-border caret-transparent flex h-5 justify-center leading-4 break-words w-5 rounded-full -right-1 -top-1">0</span>
+</a>
+</div>
+</div>
+<nav class="fixed bg-white box-border caret-transparent flex flex-col max-w-[430px] break-words translate-x-[-101.0%] w-full z-[12] overflow-hidden inset-0 md:bg-transparent md:hidden md:max-w-none md:transform-none md:w-auto md:z-auto md:overflow-visible"><div class="absolute text-black items-center bg-zinc-700 box-border caret-transparent flex h-[55px] justify-center break-words w-[55px] z-[999] rounded-[17px] right-[7px] top-[7px] md:text-neutral-700 md:bg-transparent md:hidden md:z-auto md:rounded-none md:top-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-5-1.svg" alt="Icon" class="text-white box-border caret-transparent block h-[13px] max-w-full min-h-[auto] min-w-[auto] break-words w-[13px] md:inline md:min-h-0 md:min-w-0" />
+</div>
+<div class="relative box-border caret-transparent block basis-[0%] grow h-full min-h-[auto] min-w-[auto] break-words overflow-auto md:static md:hidden md:basis-auto md:grow-0 md:h-auto md:min-h-0 md:min-w-0 md:overflow-visible"><div class="relative text-sm shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.14)_0px_12px_28px_0px] box-border caret-transparent flex basis-[0%] flex-col grow h-[1000px] leading-[23.996px] list-none break-words w-full z-10 overflow-hidden p-3.5 rounded-[14px] md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px] md:h-auto md:z-auto md:rounded-none"><ul class="box-border caret-transparent min-h-[auto] min-w-[auto] break-words my-0 pl-0 pr-1.5 py-1.5 md:min-h-0 md:min-w-0 md:my-3.5 md:pr-0 md:py-0"><li class="box-border caret-transparent break-words"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] md:static md:p-0 md:rounded-none"><a href="/" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start leading-[17.5px] min-h-[auto] min-w-[auto] break-words gap-y-[7px] py-[7px] font-open_sans md:leading-[23.996px] md:min-h-0 md:min-w-0 md:font-sofia_pro_light hover:text-black/70 hover:border-black/70">Home</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/pages/about-us" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start leading-[17.5px] min-h-[auto] min-w-[auto] break-words gap-y-[7px] py-[7px] font-open_sans md:leading-[23.996px] md:min-h-0 md:min-w-0 md:font-sofia_pro_light hover:text-black/70 hover:border-black/70">About Us</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="#" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start leading-[17.5px] min-h-[auto] min-w-[auto] break-words gap-y-[7px] py-[7px] font-open_sans md:leading-[23.996px] md:min-h-0 md:min-w-0 md:font-sofia_pro_light hover:text-black/70 hover:border-black/70"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-6-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 leading-[17.5px] max-w-full min-h-[auto] min-w-[auto] opacity-85 break-words translate-x-[-3px] translate-y-[-3px] w-3.5 font-open_sans md:basis-auto md:leading-[23.996px] md:min-h-0 md:min-w-0 md:opacity-100 md:transform-none md:font-sofia_pro_light" />
+Shop</a>
+</div>
+<div class="box-border caret-transparent hidden break-words overflow-hidden m-1.5 rounded-xl md:overflow-visible md:m-0 md:rounded-none"><div class="box-border caret-transparent break-words"><ul class="box-border caret-transparent break-words pl-[21px]"><li class="box-border caret-transparent break-words text-left"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] md:static md:p-0 md:rounded-none"><a href="/collections/medicines-treatments" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Medicines &amp; Treatments</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/vitamins-supplements" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Vitamins &amp; Supplements</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/beauty-personal-care" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Beauty &amp; Personal Care</a>
+</div>
+</li>
+<li class="relative text-white bg-[linear-gradient(-45deg,rgb(238,119,82),rgb(231,60,126),rgb(35,166,213),rgb(35,213,171))] box-border caret-transparent break-words text-left rounded-[22px] -top-px"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-b-white border-x-white border-t border-solid md:static md:p-0 md:rounded-none md:border-t-white md:border-t-0"><a href="/collections/baby-child" class="relative font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] top-[-3px] py-[7px]"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Baby &amp; Child</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/health-wellbeing" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Health &amp; Wellbeing</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/mobility-daily-living-aids" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Mobility &amp; Daily Living Aids</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/weight-management" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Weight Management</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/medical-devices-diagnostics" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Medical Devices &amp; Diagnostics</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/toiletries" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Toiletries</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/pet-care" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Pet care</a>
+</div>
+</li>
+<li class="box-border caret-transparent break-words text-left"><div class="relative items-center border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-t border-solid md:static md:border-t-neutral-700 md:p-0 md:rounded-none md:border-t-0"><a href="/collections/foot-care" class="text-black font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start break-words gap-y-[7px] py-[7px] hover:text-black/70 hover:border-black/70"><div class="items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-7-1.svg" alt="Icon" class="box-border caret-transparent basis-4 shrink-0 h-3.5 max-w-full opacity-70 break-words w-3.5 md:basis-auto md:opacity-100" />
+</div>
+Foot care</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="relative text-white bg-[linear-gradient(-45deg,rgb(238,119,82),rgb(231,60,126),rgb(35,166,213),rgb(35,213,171))] box-border caret-transparent break-words rounded-[22px] -top-px"><div class="relative items-center box-border caret-transparent gap-x-2.5 flex break-words gap-y-2.5 px-3.5 py-2.5 rounded-[10px] border-t-black/10 border-b-white border-x-white border-t border-solid md:static md:p-0 md:rounded-none md:border-t-white md:border-t-0"><a href="/pages/contact" class="relative font-bold items-center box-border caret-transparent gap-x-[7px] flex justify-start leading-[17.5px] min-h-[auto] min-w-[auto] break-words gap-y-[7px] top-[-3px] py-[7px] font-open_sans md:leading-[23.996px] md:min-h-0 md:min-w-0 md:font-sofia_pro_light">Contact</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-b-neutral-700 border-l-neutral-700 border-r-neutral-700 border-t-gray-200 box-border caret-transparent flex flex-wrap min-h-[auto] min-w-[auto] break-words mt-[30px] py-2.5 border-t border-solid md:hidden md:min-h-0 md:min-w-0 md:py-0"></div>
+</nav>
+</div>
+</div>
+</header>
+<main role="main" class="box-border caret-transparent grow break-words"><section class="box-border caret-transparent break-words"><div class="bg-fixed bg-white box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"></div>
+</div>
+</section>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(253,252,250),rgb(248,246,243),rgb(245,243,240))] box-border caret-transparent break-words w-full overflow-hidden"><div class="relative box-border caret-transparent break-words w-full px-8 py-12 md:px-24 md:py-20"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 top-40"></div>
+<div class="absolute bg-orange-200/10 box-border caret-transparent blur-3xl h-64 break-words w-64 rounded-full left-[33.3333%] bottom-20"></div>
+<div class="items-start box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,minmax(0px,1fr))] max-w-[1600px] break-words gap-y-8 mb-16 mx-auto md:gap-x-16 md:grid-cols-[1fr_0.6fr] md:gap-y-16"><div class="box-border caret-transparent break-words"><div class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent gap-x-2 inline-flex break-words gap-y-2 border border-gray-100 mb-6 px-4 py-2 rounded-full border-solid"><div class="box-border caret-transparent flex break-words"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words">4.8/5 from 10,392 reviews</span>
+</div>
+<h1 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-0.96px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.44px] md:leading-[72px]">Prescriptions sorted.<span class="text-teal-500 text-5xl box-border caret-transparent block tracking-[-0.96px] leading-[50.4px] break-words mt-1 md:text-7xl md:tracking-[-1.44px] md:leading-[72px]">Privacy protected. Delivered</span>
+</h1>
+<p class="text-neutral-600 text-lg box-border caret-transparent leading-[28.8px] max-w-2xl break-words mb-8 md:text-2xl md:leading-8">Expert healthcare on your terms. NHS-approved, prescription-perfect, delivered tomorrow.</p>
+<div class="box-border caret-transparent break-words"><div class="box-border caret-transparent break-words"><div class="relative box-border caret-transparent break-words"><div class="relative box-border caret-transparent break-words"><div class="absolute text-teal-500 box-border caret-transparent break-words pointer-events-none translate-y-[-50.0%] left-6 top-2/4"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-10.svg" alt="Icon" class="box-border caret-transparent h-7 w-7" />
+</div>
+<input type="search" placeholder="Search treatments, medications, or health concerns..." class="text-lg shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent h-16 leading-7 -outline-offset-2 break-words w-full border-gray-200 pl-16 pr-6 py-0 rounded-2xl border-solid" />
+</div>
+</div>
+<div class="text-neutral-600 text-sm items-center box-border caret-transparent gap-x-6 flex justify-center leading-5 break-words gap-y-6 mt-4"><div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-11.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<span class="font-medium box-border caret-transparent block break-words">UK Regulated</span>
+</div>
+<div class="bg-gray-300 box-border caret-transparent h-4 break-words w-px"></div>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-12.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<span class="font-medium box-border caret-transparent block break-words">100% Secure</span>
+</div>
+<div class="bg-gray-300 box-border caret-transparent h-4 break-words w-px"></div>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-13.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<span class="font-medium box-border caret-transparent block break-words">Fast Delivery</span>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-2 flex flex-wrap break-words gap-y-2 mt-4"><button class="text-sm font-medium items-center bg-white caret-transparent gap-x-2 flex leading-5 break-words gap-y-2 text-center border border-gray-200 px-4 py-2 rounded-full border-solid hover:text-teal-500 hover:bg-teal-500/10 hover:border-teal-500"><span class="text-base box-border caret-transparent block leading-6 break-words">💊</span>
+Weight Management</button>
+<button class="text-sm font-medium items-center bg-white caret-transparent gap-x-2 flex leading-5 break-words gap-y-2 text-center border border-gray-200 px-4 py-2 rounded-full border-solid hover:text-teal-500 hover:bg-teal-500/10 hover:border-teal-500"><span class="text-base box-border caret-transparent block leading-6 break-words">🩺</span>
+HRT</button>
+<button class="text-sm font-medium items-center bg-white caret-transparent gap-x-2 flex leading-5 break-words gap-y-2 text-center border border-gray-200 px-4 py-2 rounded-full border-solid hover:text-teal-500 hover:bg-teal-500/10 hover:border-teal-500"><span class="text-base box-border caret-transparent block leading-6 break-words">💙</span>
+Men&#39;s Health</button>
+<button class="text-sm font-medium items-center bg-white caret-transparent gap-x-2 flex leading-5 break-words gap-y-2 text-center border border-gray-200 px-4 py-2 rounded-full border-solid hover:text-teal-500 hover:bg-teal-500/10 hover:border-teal-500"><span class="text-base box-border caret-transparent block leading-6 break-words">✨</span>
+Hair Loss</button>
+<button class="text-sm font-medium items-center bg-white caret-transparent gap-x-2 flex leading-5 break-words gap-y-2 text-center border border-gray-200 px-4 py-2 rounded-full border-solid hover:text-teal-500 hover:bg-teal-500/10 hover:border-teal-500"><span class="text-base box-border caret-transparent block leading-6 break-words">💗</span>
+Women&#39;s Health</button>
+</div>
+<div class="text-sm items-center box-border caret-transparent gap-x-3 flex leading-5 break-words gap-y-3 mt-4"><span class="text-neutral-500 font-medium items-center box-border caret-transparent gap-x-1.5 flex break-words gap-y-1.5"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-14.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+Trending:</span>
+<div class="box-border caret-transparent gap-x-2 flex flex-wrap break-words gap-y-2"><button class="text-neutral-600 bg-transparent caret-transparent block break-words text-center underline decoration-dotted underline-offset-2 p-0 hover:text-teal-500">Wegovy</button>
+<button class="text-neutral-600 bg-transparent caret-transparent block break-words text-center underline decoration-dotted underline-offset-2 p-0 hover:text-teal-500">Finasteride</button>
+<button class="text-neutral-600 bg-transparent caret-transparent block break-words text-center underline decoration-dotted underline-offset-2 p-0 hover:text-teal-500">Viagra</button>
+<button class="text-neutral-600 bg-transparent caret-transparent block break-words text-center underline decoration-dotted underline-offset-2 p-0 hover:text-teal-500">HRT</button>
+<button class="text-neutral-600 bg-transparent caret-transparent block break-words text-center underline decoration-dotted underline-offset-2 p-0 hover:text-teal-500">Hair loss treatment</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words pt-0 md:pt-12"><div class="items-start backdrop-blur-sm bg-white/60 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent gap-x-4 flex break-words gap-y-4 border border-gray-100 p-6 rounded-2xl border-solid hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] hover:border-teal-500/30"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-16 justify-center break-words w-16 rounded-xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-15.svg" alt="Icon" class="box-border caret-transparent h-9 w-9" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-1">No prescription needed</h3>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-[22.75px] break-words">Our doctors can prescribe online</p>
+</div>
+</div>
+<div class="items-start backdrop-blur-sm bg-white/60 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent gap-x-4 flex break-words gap-y-4 border border-gray-100 mt-4 p-6 rounded-2xl border-solid hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] hover:border-teal-500/30"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-16 justify-center break-words w-16 rounded-xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-17.svg" alt="Icon" class="box-border caret-transparent h-9 w-9" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-1">Discreet service</h3>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-[22.75px] break-words">Plain packaging, confidential delivery</p>
+</div>
+</div>
+<div class="items-start backdrop-blur-sm bg-white/60 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent gap-x-4 flex break-words gap-y-4 border border-gray-100 mt-4 p-6 rounded-2xl border-solid hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] hover:border-teal-500/30"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-16 justify-center break-words w-16 rounded-xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-18.svg" alt="Icon" class="box-border caret-transparent h-9 w-9" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-1">Confidential and secure</h3>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-[22.75px] break-words">Your data is protected and private</p>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words"><div class="box-border caret-transparent break-words"><div class="box-border caret-transparent break-words text-center mb-12"><div class="items-center box-border caret-transparent gap-x-4 flex justify-center break-words gap-y-4 mb-4"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgb(59,155,159))] box-border caret-transparent h-px break-words w-16"></div>
+<p class="text-teal-500 text-sm font-bold box-border caret-transparent tracking-[1.4px] leading-5 break-words md:text-base md:tracking-[1.6px] md:leading-6">Trusted by 50,000+ patients</p>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgb(59,155,159))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+<h2 class="text-neutral-900 text-4xl font-black box-border caret-transparent tracking-[-0.9px] leading-[39.6px] break-words md:text-6xl md:tracking-[-1.5px] md:leading-[60px]">Our most popular treatments</h2>
+</div>
+<div class="box-border caret-transparent gap-x-4 grid grid-cols-[repeat(2,minmax(0px,1fr))] break-words gap-y-4 md:gap-x-6 md:grid-cols-[repeat(5,minmax(0px,1fr))] md:gap-y-6"><a href="/pages/weight-loss" class="relative aspect-[4_/_5] bg-gray-100 box-border caret-transparent block break-words overflow-hidden rounded-3xl"><div class="relative box-border caret-transparent h-full break-words overflow-hidden rounded-3xl"><div class="absolute box-border caret-transparent break-words overflow-hidden inset-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/15.jpg" alt="Weight loss" class="box-border caret-transparent h-full max-w-full object-cover break-words w-full" />
+</div>
+<div class="absolute bg-[linear-gradient(to_top,rgba(59,155,159,0.9),rgba(0,0,0,0),rgba(0,0,0,0))] box-border caret-transparent opacity-60 break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words bottom-0 inset-x-0"><div class="absolute backdrop-blur-md bg-white/10 box-border caret-transparent break-words border-t border-solid border-white/20 inset-0"></div>
+<div class="relative box-border caret-transparent break-words p-4 md:p-6"><h3 class="text-white text-xl font-bold box-border caret-transparent leading-7 break-words origin-[0%_50%] mb-2 md:text-2xl md:leading-8">Weight loss</h3>
+<div class="bg-white box-border caret-transparent h-1 break-words w-0 rounded-full"></div>
+</div>
+</div>
+</div>
+</a>
+<a href="/pages/hair-loss" class="relative aspect-[4_/_5] bg-gray-100 box-border caret-transparent block break-words overflow-hidden rounded-3xl"><div class="relative box-border caret-transparent h-full break-words overflow-hidden rounded-3xl"><div class="absolute box-border caret-transparent break-words overflow-hidden inset-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/16.jpg" alt="Hair loss" class="box-border caret-transparent h-full max-w-full object-cover break-words w-full" />
+</div>
+<div class="absolute bg-[linear-gradient(to_top,rgba(44,122,126,0.9),rgba(0,0,0,0),rgba(0,0,0,0))] box-border caret-transparent opacity-60 break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words bottom-0 inset-x-0"><div class="absolute backdrop-blur-md bg-white/10 box-border caret-transparent break-words border-t border-solid border-white/20 inset-0"></div>
+<div class="relative box-border caret-transparent break-words p-4 md:p-6"><h3 class="text-white text-xl font-bold box-border caret-transparent leading-7 break-words origin-[0%_50%] mb-2 md:text-2xl md:leading-8">Hair loss</h3>
+<div class="bg-white box-border caret-transparent h-1 break-words w-0 rounded-full"></div>
+</div>
+</div>
+</div>
+</a>
+<a href="/pages/erectile-dysfunction" class="relative aspect-[4_/_5] bg-gray-100 box-border caret-transparent block break-words overflow-hidden rounded-3xl"><div class="relative box-border caret-transparent h-full break-words overflow-hidden rounded-3xl"><div class="absolute box-border caret-transparent break-words overflow-hidden inset-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/17.jpg" alt="ED" class="box-border caret-transparent h-full max-w-full object-cover break-words w-full" />
+</div>
+<div class="absolute bg-[linear-gradient(to_top,rgba(59,155,159,0.9),rgba(0,0,0,0),rgba(0,0,0,0))] box-border caret-transparent opacity-60 break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words bottom-0 inset-x-0"><div class="absolute backdrop-blur-md bg-white/10 box-border caret-transparent break-words border-t border-solid border-white/20 inset-0"></div>
+<div class="relative box-border caret-transparent break-words p-4 md:p-6"><h3 class="text-white text-xl font-bold box-border caret-transparent leading-7 break-words origin-[0%_50%] mb-2 md:text-2xl md:leading-8">ED</h3>
+<div class="bg-white box-border caret-transparent h-1 break-words w-0 rounded-full"></div>
+</div>
+</div>
+</div>
+</a>
+<a href="/pages/skin" class="relative aspect-[4_/_5] bg-gray-100 box-border caret-transparent block break-words overflow-hidden rounded-3xl"><div class="relative box-border caret-transparent h-full break-words overflow-hidden rounded-3xl"><div class="absolute box-border caret-transparent break-words overflow-hidden inset-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/18.jpg" alt="Acne" class="box-border caret-transparent h-full max-w-full object-cover break-words w-full" />
+</div>
+<div class="absolute bg-[linear-gradient(to_top,rgba(44,122,126,0.9),rgba(0,0,0,0),rgba(0,0,0,0))] box-border caret-transparent opacity-60 break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words bottom-0 inset-x-0"><div class="absolute backdrop-blur-md bg-white/10 box-border caret-transparent break-words border-t border-solid border-white/20 inset-0"></div>
+<div class="relative box-border caret-transparent break-words p-4 md:p-6"><h3 class="text-white text-xl font-bold box-border caret-transparent leading-7 break-words origin-[0%_50%] mb-2 md:text-2xl md:leading-8">Acne</h3>
+<div class="bg-white box-border caret-transparent h-1 break-words w-0 rounded-full"></div>
+</div>
+</div>
+</div>
+</a>
+<a href="/pages/premature-ejaculation" class="relative aspect-[4_/_5] bg-gray-100 box-border caret-transparent block break-words overflow-hidden rounded-3xl"><div class="relative box-border caret-transparent h-full break-words overflow-hidden rounded-3xl"><div class="absolute box-border caret-transparent break-words overflow-hidden inset-0"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/19.jpg" alt="Premature Ejaculation" class="box-border caret-transparent h-full max-w-full object-cover break-words w-full" />
+</div>
+<div class="absolute bg-[linear-gradient(to_top,rgba(59,155,159,0.9),rgba(0,0,0,0),rgba(0,0,0,0))] box-border caret-transparent opacity-60 break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words bottom-0 inset-x-0"><div class="absolute backdrop-blur-md bg-white/10 box-border caret-transparent break-words border-t border-solid border-white/20 inset-0"></div>
+<div class="relative box-border caret-transparent break-words p-4 md:p-6"><h3 class="text-white text-xl font-bold box-border caret-transparent leading-7 break-words origin-[0%_50%] mb-2 md:text-2xl md:leading-8">Premature Ejaculation</h3>
+<div class="bg-white box-border caret-transparent h-1 break-words w-0 rounded-full"></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="items-center box-border caret-transparent gap-x-2 flex justify-center break-words gap-y-2 mt-12"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-24"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-24"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(253,254,255),rgb(240,248,249),rgb(232,244,245))] box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 top-40"></div>
+<div class="relative box-border caret-transparent break-words w-full z-10 px-8 md:px-24"><div class="box-border caret-transparent max-w-4xl break-words text-center mb-16 mx-auto"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-20.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words"><span class="text-teal-500 box-border caret-transparent break-words">4.8/5</span>
+ from 6,093 reviews</span>
+<div class="bg-teal-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">Recommended by<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-7xl md:tracking-[-1.8px] md:leading-[72px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">experts</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-21.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]" />
+</span>
+</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Trusted by healthcare professionals. Loved by patients. Proven by results.</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex justify-center break-words gap-y-3 mt-6"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,minmax(0px,1fr))] max-w-[1600px] break-words gap-y-8 mb-16 mx-auto md:grid-cols-[repeat(12,minmax(0px,1fr))]"><div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_7] md:col-start-[span_7]"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent h-full min-h-[600px] break-words border border-gray-100 overflow-hidden rounded-3xl border-solid md:min-h-[700px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/20.jpg" alt="Professor Simon Gaisford" class="absolute box-border caret-transparent h-full max-w-full object-cover object-[50%_20%] break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-8 bottom-0 inset-x-0 md:p-12"><div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words border mb-8 p-8 rounded-2xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-4"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+</div>
+<p class="text-neutral-800 text-xl italic box-border caret-transparent leading-[32.5px] break-words mb-4 font-georgia md:text-2xl md:leading-8">&quot;Smart Pharmacy transformed how I access healthcare. The consultation was thorough, discreet, and the medication arrived faster than I expected. Genuinely life-changing.&quot;</p>
+<div class="box-border caret-transparent break-words"><p class="text-neutral-900 text-lg font-black box-border caret-transparent leading-7 break-words">Professor Simon Gaisford</p>
+<p class="font-semibold box-border caret-transparent break-words">Head of Pharmaceutics</p>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-5 break-words">UCL School of Pharmacy</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 flex flex-col col-end-auto col-start-auto break-words gap-y-8 md:col-end-[span_5] md:col-start-[span_5]"><div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words border border-gray-100 overflow-hidden rounded-3xl border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/21.jpg" alt="Laura Tilt" class="absolute box-border caret-transparent h-full max-w-full object-cover object-[50%_30%] break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<p class="text-neutral-800 text-base italic box-border caret-transparent leading-[26px] break-words mb-2 font-georgia">&quot;In a world where there are many claims about healthcare (with good evidence!), I&#39;m so enthused by Smart Pharmacy&#39;s research, and what we are seeing from the results.&quot;</p>
+<div class="box-border caret-transparent break-words"><p class="text-neutral-900 text-sm font-black box-border caret-transparent leading-5 break-words">Laura Tilt</p>
+<p class="text-xs font-semibold box-border caret-transparent leading-4 break-words">Registered Dietitian</p>
+<p class="text-neutral-600 text-xs box-border caret-transparent leading-4 break-words">NHS Specialist</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words border border-gray-100 overflow-hidden rounded-3xl border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/22.jpg" alt="Dr Sammie Gill" class="absolute box-border caret-transparent h-full max-w-full object-cover object-[50%_30%] break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<p class="text-neutral-800 text-base italic box-border caret-transparent leading-[26px] break-words mb-2 font-georgia">&quot;Smart Pharmacy holds itself to the highest possible research standards and a commitment to an evidence-based approach. Truly exceptional care.&quot;</p>
+<div class="box-border caret-transparent break-words"><p class="text-neutral-900 text-sm font-black box-border caret-transparent leading-5 break-words">Dr Sammie Gill</p>
+<p class="text-xs font-semibold box-border caret-transparent leading-4 break-words">Gastroenterology Dietitian</p>
+<p class="text-neutral-600 text-xs box-border caret-transparent leading-4 break-words">King&#39;s College Hospital</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words text-center"><a href="/pages/about-us" class="text-white text-lg font-bold items-center bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex leading-7 break-words gap-y-3 px-10 py-5 rounded-full hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]">Read about the science behind Smart Pharmacy<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-23.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<section class="relative box-border caret-transparent break-words overflow-hidden py-16 md:py-20"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(44,122,126),rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent opacity-[0.03] break-words inset-0"></div>
+<div class="absolute bg-[radial-gradient(circle_at_30%_50%,rgba(59,155,159,0.08),rgba(0,0,0,0)_50%)] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute bg-[radial-gradient(circle_at_70%_50%,rgba(44,122,126,0.08),rgba(0,0,0,0)_50%)] box-border caret-transparent break-words inset-0"></div>
+<div class="relative box-border caret-transparent max-w-[1400px] break-words z-10 mx-auto px-6 md:px-12"><div class="backdrop-blur-sm bg-[linear-gradient(to_right_bottom,rgb(255,255,255),rgba(249,250,251,0.5))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border border-gray-100/50 overflow-hidden rounded-3xl border-solid"><div class="items-center box-border caret-transparent gap-x-8 flex flex-col justify-between break-words gap-y-8 p-8 md:flex-row md:p-12"><div class="box-border caret-transparent basis-[0%] grow break-words text-center md:text-left"><div class="text-teal-700 text-sm font-semibold items-center bg-[linear-gradient(to_right,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent gap-x-2 inline-flex leading-5 break-words gap-y-2 text-center mb-4 px-4 py-2 rounded-full md:text-left"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-24.svg" alt="Icon" class="box-border caret-transparent h-4 text-center w-4 md:text-left" />
+Limited Time Offer</div>
+<h3 class="text-neutral-900 text-3xl font-bold box-border caret-transparent leading-[37.5px] break-words text-center mb-3 md:text-5xl md:leading-[48px] md:text-left">Pay Day Sale – <span class="text-transparent text-3xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-[37.5px] break-words text-center md:text-5xl md:leading-[48px] md:text-left">15% Off</span>
+ site wide</h3>
+<p class="text-neutral-600 text-lg box-border caret-transparent leading-7 break-words text-center md:text-left">Ends Sunday Midnight! Use code at checkout</p>
+</div>
+<div class="items-center box-border caret-transparent gap-x-4 flex flex-col break-words gap-y-4 md:gap-x-6 md:flex-row md:gap-y-6"><div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-lg opacity-30 break-words rounded-2xl inset-0"></div>
+<div class="relative text-white bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words px-8 py-6 rounded-2xl"><span class="text-xs font-medium box-border caret-transparent block leading-4 opacity-90 break-words mb-1">Use Code:</span>
+<span class="text-3xl font-black box-border caret-transparent tracking-[1.5px] leading-9 break-words">PAYDAY</span>
+<div class="absolute bg-white/30 box-border caret-transparent h-2 break-words w-2 rounded-full right-2 top-2"></div>
+</div>
+</div>
+<a href="/collections/medicines-treatments" class="relative text-white text-lg font-bold bg-neutral-900 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent block leading-7 break-words overflow-hidden px-10 py-5 rounded-2xl hover:bg-neutral-800 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]"><span class="relative items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 z-10">Shop Now<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-23.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="relative bg-white box-border caret-transparent break-words py-12"><div class="box-border caret-transparent max-w-[1400px] break-words mx-auto px-6"><div class="box-border caret-transparent gap-x-6 grid grid-cols-[repeat(2,minmax(0px,1fr))] break-words gap-y-6 md:gap-x-8 md:grid-cols-[repeat(5,minmax(0px,1fr))] md:gap-y-8"><div class="items-center box-border caret-transparent flex flex-col break-words text-center"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 mb-4 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-25.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words mb-1">UK Regulated</span>
+<span class="text-neutral-600 text-xs box-border caret-transparent block leading-4 break-words">Pharmacy</span>
+</div>
+<div class="items-center box-border caret-transparent flex flex-col break-words text-center"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 mb-4 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-26.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words mb-1">Discreet</span>
+<span class="text-neutral-600 text-xs box-border caret-transparent block leading-4 break-words">Packaging</span>
+</div>
+<div class="items-center box-border caret-transparent flex flex-col break-words text-center"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 mb-4 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-27.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words mb-1">Free Delivery</span>
+<span class="text-neutral-600 text-xs box-border caret-transparent block leading-4 break-words">Over £30</span>
+</div>
+<div class="items-center box-border caret-transparent flex flex-col break-words text-center"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 mb-4 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-28.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words mb-1">Free Online</span>
+<span class="text-neutral-600 text-xs box-border caret-transparent block leading-4 break-words">Consultation</span>
+</div>
+<div class="items-center box-border caret-transparent flex flex-col col-end-[span_2] col-start-[span_2] break-words text-center md:col-end-[span_1] md:col-start-[span_1]"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 mb-4 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-29.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+<span class="text-neutral-900 text-sm font-semibold box-border caret-transparent block leading-5 break-words mb-1">Genuine</span>
+<span class="text-neutral-600 text-xs box-border caret-transparent block leading-4 break-words">Products</span>
+</div>
+</div>
+</div>
+</section>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-white box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 top-40"></div>
+<div class="relative box-border caret-transparent max-w-[1600px] break-words z-10 mx-auto px-8 md:px-24"><div class="box-border caret-transparent max-w-4xl break-words text-center mb-20 mx-auto"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-20.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words">Trusted by <span class="text-teal-500 box-border caret-transparent break-words">50,000+</span>
+ patients</span>
+<div class="bg-teal-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">Experience the<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-7xl md:tracking-[-1.8px] md:leading-[72px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">difference</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-30.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]" />
+</span>
+</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Real stories from real patients who chose Smart Pharmacy for their healthcare journey</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex justify-center break-words gap-y-3 mt-8"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-8 md:grid-cols-[repeat(12,minmax(0px,1fr))]"><div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_7] md:col-start-[span_7]"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent h-full min-h-[600px] break-words overflow-hidden rounded-3xl md:min-h-[700px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/23.jpg" alt="Expert Care, Your Way" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-8 bottom-0 inset-x-0 md:p-12"><h3 class="text-white text-4xl font-black box-border caret-transparent tracking-[-0.9px] leading-[45px] break-words mb-6 md:text-5xl md:tracking-[-1.2px] md:leading-[48px]">Expert Care, Your Way</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words border mb-8 p-8 rounded-2xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-4"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-22.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+</div>
+<p class="text-neutral-800 text-xl italic box-border caret-transparent leading-[32.5px] break-words mb-4 font-georgia md:text-2xl md:leading-8">&quot;The consultation was thorough yet quick. My doctor took time to understand my needs and prescribed the perfect treatment.&quot;</p>
+<p class="text-lg font-bold box-border caret-transparent leading-7 break-words">— David L.</p>
+</div>
+<div class="box-border caret-transparent gap-x-6 grid grid-cols-[repeat(2,minmax(0px,1fr))] break-words gap-y-6"><div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border border-gray-100 p-6 rounded-2xl border-solid"><div class="text-transparent text-4xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-10 break-words mb-2">100%</div>
+<div class="text-sm font-bold box-border caret-transparent tracking-[0.35px] leading-5 break-words uppercase">UK Registered Doctors</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border border-gray-100 p-6 rounded-2xl border-solid"><div class="text-transparent text-4xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-10 break-words mb-2">5 min</div>
+<div class="text-sm font-bold box-border caret-transparent tracking-[0.35px] leading-5 break-words uppercase">Average Consultation</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 flex flex-col col-end-auto col-start-auto break-words gap-y-8 md:col-end-[span_5] md:col-start-[span_5]"><div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words overflow-hidden rounded-3xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/24.jpg" alt="Delivered with Discretion" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><h3 class="text-white text-2xl font-black box-border caret-transparent tracking-[-0.6px] leading-[30px] break-words mb-4">Delivered with Discretion</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<p class="text-neutral-800 text-base italic box-border caret-transparent leading-[26px] break-words mb-2 font-georgia">&quot;Plain packaging, next-day delivery. Nobody knows what&#39;s inside. Exactly what I needed.&quot;</p>
+<p class="text-sm font-bold box-border caret-transparent leading-5 break-words">— Anonymous</p>
+</div>
+<div class="box-border caret-transparent gap-x-3 grid grid-cols-[repeat(2,minmax(0px,1fr))] break-words gap-y-3"><div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 p-4 rounded-xl border-solid"><div class="text-transparent text-2xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-8 break-words mb-1">24hrs</div>
+<div class="text-xs font-bold box-border caret-transparent tracking-[0.3px] leading-4 break-words uppercase">Next Day Delivery</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 p-4 rounded-xl border-solid"><div class="text-transparent text-2xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-8 break-words mb-1">100%</div>
+<div class="text-xs font-bold box-border caret-transparent tracking-[0.3px] leading-4 break-words uppercase">Discreet Packaging</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words overflow-hidden rounded-3xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/25.jpg" alt="Trusted & Transparent" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><h3 class="text-white text-2xl font-black box-border caret-transparent tracking-[-0.6px] leading-[30px] break-words mb-4">Trusted &amp; Transparent</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<p class="text-neutral-800 text-base italic box-border caret-transparent leading-[26px] break-words mb-2 font-georgia">&quot;No hidden fees, clear pricing, genuine medications. Finally, a pharmacy I can trust completely.&quot;</p>
+<p class="text-sm font-bold box-border caret-transparent leading-5 break-words">— Rachel M.</p>
+</div>
+<div class="box-border caret-transparent gap-x-3 grid grid-cols-[repeat(2,minmax(0px,1fr))] break-words gap-y-3"><div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 p-4 rounded-xl border-solid"><div class="text-transparent text-2xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-8 break-words mb-1">£0</div>
+<div class="text-xs font-bold box-border caret-transparent tracking-[0.3px] leading-4 break-words uppercase">Hidden Fees</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 p-4 rounded-xl border-solid"><div class="text-transparent text-2xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-8 break-words mb-1">50k+</div>
+<div class="text-xs font-bold box-border caret-transparent tracking-[0.3px] leading-4 break-words uppercase">Happy Patients</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words text-center mt-20"><div class="items-center box-border caret-transparent gap-x-4 inline-flex flex-col break-words gap-y-4 md:flex-row"><a href="/pages/about-us" class="relative text-white text-lg font-bold bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent block leading-7 break-words overflow-hidden px-10 py-5 rounded-full hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]"><span class="relative items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 z-10">Learn More About Us<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-23.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</span>
+</a>
+<a href="/pages/contact" class="text-teal-500 text-lg font-bold shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent block leading-7 break-words border-teal-500 px-10 py-5 rounded-full border-2 border-solid hover:text-white hover:bg-teal-500 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px]"><span class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2">Contact Our Team<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-31.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(253,252,250),rgb(248,246,243),rgb(245,243,240))] box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 top-40"></div>
+<div class="relative box-border caret-transparent max-w-[1400px] break-words z-10 mx-auto px-6 md:px-12"><div class="items-center box-border caret-transparent gap-x-16 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-16 md:grid-cols-[repeat(2,minmax(0px,1fr))]"><div class="box-border caret-transparent break-words"><div class="box-border caret-transparent break-words"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-32.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words"><span class="text-teal-500 box-border caret-transparent break-words">GPhC</span>
+ Registered Pharmacy</span>
+<div class="bg-green-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-6xl md:tracking-[-1.5px] md:leading-[60px]">Safe and<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-6xl md:tracking-[-1.5px] md:leading-[60px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-6xl md:tracking-[-1.5px] md:leading-[60px]">Secure</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-33.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-6xl md:tracking-[-1.5px] md:leading-[60px]" />
+</span>
+</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Your safety is our top priority. We&#39;re fully regulated and inspected to ensure the highest standards of care.</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex break-words gap-y-3 mt-6"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words mt-8"><div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden p-8 rounded-2xl border-solid"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="items-start box-border caret-transparent gap-x-6 flex break-words gap-y-6"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-20 justify-center break-words w-20 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-34.svg" alt="Icon" class="box-border caret-transparent h-10 w-10" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-8 break-words mb-2">Registered UK Pharmacy</h3>
+<p class="text-neutral-600 box-border caret-transparent leading-[24.375px] break-words">Fully licensed and regulated by the General Pharmaceutical Council</p>
+</div>
+</div>
+</div>
+<div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 p-8 rounded-2xl border-solid"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="items-start box-border caret-transparent gap-x-6 flex break-words gap-y-6"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-20 justify-center break-words w-20 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-36.svg" alt="Icon" class="box-border caret-transparent h-10 w-10" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-8 break-words mb-2">Fully Inspected &amp; Regulated</h3>
+<p class="text-neutral-600 box-border caret-transparent leading-[24.375px] break-words">Regular inspections ensure we meet the highest safety standards</p>
+</div>
+</div>
+</div>
+<div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 p-8 rounded-2xl border-solid"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="items-start box-border caret-transparent gap-x-6 flex break-words gap-y-6"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative text-white items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-20 justify-center break-words w-20 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-37.svg" alt="Icon" class="box-border caret-transparent h-10 w-10" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-8 break-words mb-2">Approved UK-licensed Treatments</h3>
+<p class="text-neutral-600 box-border caret-transparent leading-[24.375px] break-words">Only genuine, MHRA-approved medications from trusted suppliers</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.2),rgba(0,0,0,0))] box-border caret-transparent blur-2xl h-32 break-words w-32 rounded-full -right-6 -top-6"></div>
+<div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words border border-gray-100 overflow-hidden rounded-3xl border-solid"><div class="relative bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent break-words overflow-hidden p-10"><div class="absolute box-border caret-transparent opacity-10 break-words inset-0"><div class="absolute bg-[radial-gradient(circle_at_2px_2px,rgb(255,255,255)_1px,rgba(0,0,0,0)_0px)] bg-size-[40px_40px] box-border caret-transparent break-words inset-0"></div>
+</div>
+<div class="relative box-border caret-transparent break-words z-10 mb-6"><div class="items-center backdrop-blur-sm bg-white/20 box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border px-5 py-3 rounded-2xl border-solid border-white/30"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/15.svg" alt="General Pharmaceutical Council" class="box-border caret-transparent h-12 max-w-full break-words" />
+</div>
+</div>
+<h3 class="text-white text-3xl font-black box-border caret-transparent leading-[37.5px] break-words md:text-4xl md:leading-10">General Pharmaceutical<br class="text-3xl box-border caret-transparent leading-[37.5px] break-words md:text-4xl md:leading-10" />
+Council</h3>
+<div class="absolute bg-[linear-gradient(to_right_bottom,rgba(255,255,255,0.1),rgba(0,0,0,0))] box-border caret-transparent blur-3xl h-64 break-words w-64 rounded-full right-0 top-0"></div>
+</div>
+<div class="box-border caret-transparent break-words p-10"><div class="box-border caret-transparent break-words mb-8"><div class="items-center bg-[linear-gradient(to_right,rgb(240,253,244),rgb(236,253,245))] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-green-200 mb-6 px-5 py-3 rounded-2xl border-solid"><div class="items-center bg-green-500 box-border caret-transparent flex h-8 justify-center break-words w-8 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-38.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-green-700 text-sm font-bold box-border caret-transparent block tracking-[0.35px] leading-5 break-words uppercase">Verified Registration</span>
+</div>
+<div class="box-border caret-transparent break-words"><div class="box-border caret-transparent break-words"><p class="text-neutral-500 text-sm font-bold box-border caret-transparent tracking-[0.7px] leading-5 break-words uppercase mb-2">GPhC Registered Pharmacy</p>
+<div class="relative box-border caret-transparent inline-block break-words"><p class="text-transparent text-5xl font-black bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border leading-[48px] break-words md:text-6xl md:leading-[60px]">9012842</p>
+<div class="absolute bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent h-1 break-words rounded-full -bottom-2 inset-x-0"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words border-gray-100 pt-8 border-t-2 border-solid"><p class="text-neutral-600 text-lg box-border caret-transparent leading-[29.25px] break-words mb-6">The GPhC is the official body that regulates and inspects all pharmacies in the UK. They ensure we prioritise your safety and meet the highest standards.</p>
+<a href="https://www.pharmacyregulation.org/registers/pharmacy/registrationnumber/9012842" class="text-white font-bold items-center bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 px-8 py-4 rounded-2xl hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px]"><span class="box-border caret-transparent block break-words">Verify our registration</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-39.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+</div>
+</div>
+<div class="bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126),rgb(59,155,159))] box-border caret-transparent h-2 break-words"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(253,252,250),rgb(248,246,243),rgb(245,243,240))] box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 bottom-0"></div>
+<div class="relative items-center box-border caret-transparent gap-x-4 flex flex-col justify-center max-w-[1400px] break-words gap-y-4 z-10 m-auto px-6 md:px-12"><div class="box-border caret-transparent max-w-4xl break-words text-center mb-16 mx-auto"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-40.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words">Fast &amp; <span class="text-teal-500 box-border caret-transparent break-words">Simple</span>
+ Process</span>
+<div class="bg-teal-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">How it<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-7xl md:tracking-[-1.8px] md:leading-[72px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">Works?</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-33.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]" />
+</span>
+</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Get your treatment in three simple steps</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex justify-center break-words gap-y-3 mt-6"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-8 w-full mb-16 md:grid-cols-[repeat(3,minmax(0px,1fr))]"><div class="relative box-border caret-transparent break-words"><div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex flex-col h-full break-words border border-gray-100 overflow-hidden p-8 rounded-3xl border-solid md:p-10"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="absolute box-border caret-transparent break-words z-10 -right-4 -top-4"><div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-xl opacity-50 break-words rounded-full inset-0"></div>
+<div class="relative text-white text-2xl font-black items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent flex h-16 justify-center leading-8 break-words w-16 rounded-full">1</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words z-10 mb-6"><div class="bg-[linear-gradient(to_right,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent inline-block break-words mb-4 px-4 py-2 rounded-full"><p class="text-teal-700 text-sm font-bold box-border caret-transparent tracking-[0.35px] leading-5 break-words uppercase">Quick &amp; Easy</p>
+</div>
+<h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-[30px] break-words mb-4 md:text-3xl md:leading-9">Choose your treatment</h3>
+<p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words">Select from our recommended UK-licensed medications</p>
+</div>
+<div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(249,250,251),rgb(255,255,255))] box-border caret-transparent flex basis-[0%] grow justify-center break-words overflow-hidden p-8 rounded-2xl"><div class="absolute box-border caret-transparent opacity-5 break-words inset-0"><div class="absolute bg-[radial-gradient(circle_at_2px_2px,rgb(59,155,159)_1px,rgba(0,0,0,0)_0px)] bg-size-[30px_30px] box-border caret-transparent break-words inset-0"></div>
+</div>
+<div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-2xl opacity-20 break-words rounded-3xl inset-0"></div>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-41.svg" alt="Icon" class="relative text-teal-500 box-border caret-transparent h-32 w-32" />
+</div>
+</div>
+<div class="absolute box-border caret-transparent hidden break-words transform-none z-20 -right-8 top-2/4 md:block md:translate-y-[-50.0%]"><div class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-16 justify-center break-words w-16 border-teal-500/20 rounded-full border-2 border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-42.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words"><div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex flex-col h-full break-words border border-gray-100 overflow-hidden p-8 rounded-3xl border-solid md:p-10"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="absolute box-border caret-transparent break-words z-10 -right-4 -top-4"><div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-xl opacity-50 break-words rounded-full inset-0"></div>
+<div class="relative text-white text-2xl font-black items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent flex h-16 justify-center leading-8 break-words w-16 rounded-full">2</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words z-10 mb-6"><div class="bg-[linear-gradient(to_right,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent inline-block break-words mb-4 px-4 py-2 rounded-full"><p class="text-teal-700 text-sm font-bold box-border caret-transparent tracking-[0.35px] leading-5 break-words uppercase">Secure &amp; Private</p>
+</div>
+<h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-[30px] break-words mb-4 md:text-3xl md:leading-9">Answer quick questions</h3>
+<p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words">Complete a brief medical questionnaire reviewed by UK doctors</p>
+</div>
+<div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(249,250,251),rgb(255,255,255))] box-border caret-transparent flex basis-[0%] grow justify-center break-words overflow-hidden p-8 rounded-2xl"><div class="absolute box-border caret-transparent opacity-5 break-words inset-0"><div class="absolute bg-[radial-gradient(circle_at_2px_2px,rgb(59,155,159)_1px,rgba(0,0,0,0)_0px)] bg-size-[30px_30px] box-border caret-transparent break-words inset-0"></div>
+</div>
+<div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent h-56 break-words w-40 border-neutral-900 overflow-hidden rounded-3xl border-8 border-solid"><div class="absolute bg-neutral-900 box-border caret-transparent h-6 break-words translate-x-[-50.0%] w-20 rounded-b-2xl left-2/4 top-0"></div>
+<div class="bg-[linear-gradient(to_right_bottom,rgb(255,255,255),rgb(249,250,251))] box-border caret-transparent h-full break-words pt-8 px-4"><div class="box-border caret-transparent break-words text-center mb-4"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 mb-2 mx-auto rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-43.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<div class="text-neutral-900 text-xs font-bold box-border caret-transparent leading-4 break-words">Medical Form</div>
+</div>
+<div class="box-border caret-transparent break-words"><div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent break-words border border-gray-100 p-2 rounded-lg border-solid"><div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><div class="items-center bg-green-500 box-border caret-transparent flex h-4 justify-center break-words w-4 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-44.svg" alt="Icon" class="text-white box-border caret-transparent h-3 w-3" />
+</div>
+<div class="bg-gray-200 box-border caret-transparent basis-[0%] grow h-2 break-words rounded-bl rounded-br rounded-tl rounded-tr"></div>
+</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent break-words border border-gray-100 mt-2 p-2 rounded-lg border-solid"><div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><div class="items-center bg-green-500 box-border caret-transparent flex h-4 justify-center break-words w-4 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-44.svg" alt="Icon" class="text-white box-border caret-transparent h-3 w-3" />
+</div>
+<div class="bg-gray-200 box-border caret-transparent basis-[0%] grow h-2 break-words rounded-bl rounded-br rounded-tl rounded-tr"></div>
+</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent break-words border border-teal-500 mt-2 p-2 rounded-lg border-solid"><div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><div class="bg-teal-500 box-border caret-transparent h-4 break-words w-4 rounded-full"></div>
+<div class="bg-gray-200 box-border caret-transparent basis-[0%] grow h-2 break-words rounded-bl rounded-br rounded-tl rounded-tr"></div>
+</div>
+</div>
+</div>
+<div class="absolute box-border caret-transparent break-words bottom-4 inset-x-4"><div class="bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent break-words text-center py-2 rounded-lg"><div class="text-white text-xs font-bold box-border caret-transparent leading-4 break-words">Continue</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute box-border caret-transparent hidden break-words transform-none z-20 -right-8 top-2/4 md:block md:translate-y-[-50.0%]"><div class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-16 justify-center break-words w-16 border-teal-500/20 rounded-full border-2 border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-42.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words"><div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex flex-col h-full break-words border border-gray-100 overflow-hidden p-8 rounded-3xl border-solid md:p-10"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent h-20 break-words w-20 rounded-bl-full right-0 top-0"></div>
+<div class="absolute box-border caret-transparent break-words z-10 -right-4 -top-4"><div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-xl opacity-50 break-words rounded-full inset-0"></div>
+<div class="relative text-white text-2xl font-black items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent flex h-16 justify-center leading-8 break-words w-16 rounded-full">3</div>
+</div>
+</div>
+<div class="relative box-border caret-transparent break-words z-10 mb-6"><div class="bg-[linear-gradient(to_right,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent inline-block break-words mb-4 px-4 py-2 rounded-full"><p class="text-teal-700 text-sm font-bold box-border caret-transparent tracking-[0.35px] leading-5 break-words uppercase">Fast Delivery</p>
+</div>
+<h3 class="text-neutral-900 text-2xl font-black box-border caret-transparent leading-[30px] break-words mb-4 md:text-3xl md:leading-9">Get it delivered fast</h3>
+<p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words">Discreet packaging delivered to your door, as quickly as tomorrow</p>
+</div>
+<div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(249,250,251),rgb(255,255,255))] box-border caret-transparent flex basis-[0%] grow justify-center break-words overflow-hidden p-8 rounded-2xl"><div class="absolute box-border caret-transparent opacity-5 break-words inset-0"><div class="absolute bg-[radial-gradient(circle_at_2px_2px,rgb(59,155,159)_1px,rgba(0,0,0,0)_0px)] bg-size-[30px_30px] box-border caret-transparent break-words inset-0"></div>
+</div>
+<div class="relative box-border caret-transparent break-words"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-2xl opacity-20 break-words rounded-3xl inset-0"></div>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-45.svg" alt="Icon" class="relative box-border caret-transparent h-32 w-32" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent max-w-4xl break-words text-center w-full border border-gray-100 mx-auto p-10 rounded-3xl border-solid md:p-12"><div class="box-border caret-transparent break-words mb-8"><h3 class="text-neutral-900 text-3xl font-black box-border caret-transparent leading-9 break-words mb-4 md:text-4xl md:leading-10">Ready to get started?</h3>
+<p class="text-neutral-600 text-lg box-border caret-transparent leading-[29.25px] break-words">Join thousands of patients who trust Smart Pharmacy for their healthcare needs</p>
+</div>
+<div class="items-center box-border caret-transparent gap-x-4 flex flex-col justify-center break-words gap-y-4 md:flex-row"><a href="/collections/all" class="text-white text-lg font-bold items-center bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 flex leading-7 break-words gap-y-3 px-10 py-5 rounded-full hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]">Start Your Consultation<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-23.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+<a href="/pages/about-us" class="text-teal-500 text-lg font-bold box-border caret-transparent block leading-7 break-words border-teal-500 px-10 py-5 rounded-full border-2 border-solid hover:text-white hover:bg-teal-500">Learn More</a>
+</div>
+<div class="items-center box-border caret-transparent gap-x-8 flex justify-center break-words gap-y-8 border-gray-100 mt-8 pt-8 border-t border-solid"><div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-46.svg" alt="Icon" class="text-green-500 box-border caret-transparent h-5 w-5" />
+<span class="text-sm font-semibold box-border caret-transparent block leading-5 break-words">Free Consultation</span>
+</div>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-46.svg" alt="Icon" class="text-green-500 box-border caret-transparent h-5 w-5" />
+<span class="text-sm font-semibold box-border caret-transparent block leading-5 break-words">Next Day Delivery</span>
+</div>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-46.svg" alt="Icon" class="text-green-500 box-border caret-transparent h-5 w-5" />
+<span class="text-sm font-semibold box-border caret-transparent block leading-5 break-words">UK Doctors</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(245,243,240),rgb(250,248,245),rgb(240,237,232))] box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.1),rgba(0,0,0,0))] box-border caret-transparent h-px break-words w-full left-0 top-0"></div>
+<div class="absolute bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.1),rgba(0,0,0,0))] box-border caret-transparent h-px break-words w-full left-0 bottom-0"></div>
+<div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 bottom-40"></div>
+<div class="relative box-border caret-transparent max-w-[1600px] break-words z-10 mx-auto px-8 md:px-24"><div class="box-border caret-transparent max-w-4xl break-words text-center mb-16 mx-auto"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="box-border caret-transparent flex break-words"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words ml-2"><span class="text-teal-500 box-border caret-transparent break-words">4.8/5</span>
+ from 6,093 reviews</span>
+<div class="bg-teal-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">Our most<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-7xl md:tracking-[-1.8px] md:leading-[72px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">trusted</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-33.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]" />
+</span>
+treatments</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Prescribed by UK doctors, delivered with care</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex justify-center break-words gap-y-3 mt-6"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-8 mb-12 md:grid-cols-[repeat(12,minmax(0px,1fr))]"><div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_7] md:col-start-[span_7]"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent h-full min-h-[600px] break-words border border-gray-100 overflow-hidden rounded-3xl border-solid md:min-h-[700px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/26.jpg" alt="Wegovy (Semaglutide)" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words left-6 top-6"><span class="text-white text-sm font-bold bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent inline-block leading-5 break-words px-4 py-2 rounded-full">Most Popular</span>
+</div>
+<div class="absolute box-border caret-transparent break-words p-8 bottom-0 inset-x-0 md:p-12"><div class="backdrop-blur-sm bg-white/20 box-border caret-transparent inline-block break-words border mb-4 px-4 py-2 rounded-full border-solid border-white/30"><p class="text-white text-sm font-bold box-border caret-transparent tracking-[0.7px] leading-5 break-words uppercase">WEIGHT MANAGEMENT</p>
+</div>
+<h3 class="text-white text-4xl font-black box-border caret-transparent tracking-[-0.9px] leading-[45px] break-words mb-6 md:text-5xl md:tracking-[-1.2px] md:leading-[48px]">Wegovy (Semaglutide)</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words border mb-8 p-8 rounded-2xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-3"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-9.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-4 w-4" />
+</div>
+<p class="text-neutral-800 text-lg italic box-border caret-transparent leading-[29.25px] break-words mb-2 font-georgia">&quot;Lost 15kg in 3 months. Life-changing results with professional support throughout.&quot;</p>
+<p class="text-sm font-bold box-border caret-transparent leading-5 break-words">— Sarah M.</p>
+</div>
+<div class="items-center box-border caret-transparent flex justify-between break-words"><div class="box-border caret-transparent break-words"><span class="text-white text-4xl font-black box-border caret-transparent leading-10 break-words">£199</span>
+<span class="text-white/80 text-lg box-border caret-transparent leading-7 break-words">/month</span>
+</div>
+<button class="text-neutral-900 font-bold bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] caret-transparent block break-words text-center px-8 py-4 rounded-full hover:bg-gray-100 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px]">Get Started →</button>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent gap-x-8 flex flex-col col-end-auto col-start-auto break-words gap-y-8 md:col-end-[span_5] md:col-start-[span_5]"><div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words border border-gray-100 overflow-hidden rounded-3xl border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/28.jpg" alt="Finasteride & Minoxidil" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words left-4 top-4"><span class="text-white text-xs font-bold bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent inline-block leading-4 break-words px-3 py-1.5 rounded-full">Best Value</span>
+</div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><div class="backdrop-blur-sm bg-white/20 box-border caret-transparent inline-block break-words border mb-3 px-3 py-1.5 rounded-full border-solid border-white/30"><p class="text-white text-xs font-bold box-border caret-transparent tracking-[0.6px] leading-4 break-words uppercase">HAIR LOSS</p>
+</div>
+<h3 class="text-white text-2xl font-black box-border caret-transparent tracking-[-0.6px] leading-[30px] break-words mb-4">Finasteride &amp; Minoxidil</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+</div>
+<p class="text-neutral-800 text-sm italic box-border caret-transparent flow-root leading-[22.75px] break-words overflow-hidden font-georgia">&quot;Visible regrowth in 4 months. Confidence restored. Couldn&#39;t be happier with the service.&quot;</p>
+</div>
+<div class="items-center box-border caret-transparent flex justify-between break-words"><div class="box-border caret-transparent break-words"><span class="text-white text-2xl font-black box-border caret-transparent leading-8 break-words">£45</span>
+<span class="text-white/80 text-sm box-border caret-transparent leading-5 break-words">/month</span>
+</div>
+<button class="text-neutral-900 text-sm font-semibold bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] caret-transparent block leading-5 break-words text-center px-6 py-3 rounded-full hover:bg-gray-100">View →</button>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><div class="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-full min-h-80 break-words border border-gray-100 overflow-hidden rounded-3xl border-solid"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/29.jpg" alt="Sildenafil (Viagra)" class="absolute box-border caret-transparent h-full max-w-full object-cover break-words w-full inset-0" />
+<div class="absolute bg-[linear-gradient(to_top,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.2))] box-border caret-transparent break-words inset-0"></div>
+<div class="absolute box-border caret-transparent break-words left-4 top-4"><span class="text-white text-xs font-bold bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent inline-block leading-4 break-words px-3 py-1.5 rounded-full">Bestseller</span>
+</div>
+<div class="absolute box-border caret-transparent break-words p-6 bottom-0 inset-x-0"><div class="backdrop-blur-sm bg-white/20 box-border caret-transparent inline-block break-words border mb-3 px-3 py-1.5 rounded-full border-solid border-white/30"><p class="text-white text-xs font-bold box-border caret-transparent tracking-[0.6px] leading-4 break-words uppercase">MEN&#39;S HEALTH</p>
+</div>
+<h3 class="text-white text-2xl font-black box-border caret-transparent tracking-[-0.6px] leading-[30px] break-words mb-4">Sildenafil (Viagra)</h3>
+<div class="backdrop-blur-xl bg-white/100 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent break-words border mb-4 p-5 rounded-xl border-solid border-white/30"><div class="box-border caret-transparent flex break-words mb-2"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-47.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-3 w-3" />
+</div>
+<p class="text-neutral-800 text-sm italic box-border caret-transparent flow-root leading-[22.75px] break-words overflow-hidden font-georgia">&quot;Discreet, fast delivery. Works perfectly. The consultation was professional and easy.&quot;</p>
+</div>
+<div class="items-center box-border caret-transparent flex justify-between break-words"><div class="box-border caret-transparent break-words"><span class="text-white text-2xl font-black box-border caret-transparent leading-8 break-words">£2.50</span>
+<span class="text-white/80 text-sm box-border caret-transparent leading-5 break-words">/tablet</span>
+</div>
+<button class="text-neutral-900 text-sm font-semibold bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] caret-transparent block leading-5 break-words text-center px-6 py-3 rounded-full hover:bg-gray-100">View →</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words text-center"><a href="/collections/all" class="text-white text-lg font-bold items-center bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent gap-x-3 inline-flex leading-7 break-words gap-y-3 px-12 py-6 rounded-full hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]">Browse All Treatments<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-48.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><section class="relative bg-[linear-gradient(to_right_bottom,rgb(245,243,240),rgb(250,248,245),rgb(240,237,232))] box-border caret-transparent break-words overflow-hidden py-20 md:py-32"><div class="absolute bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.2),rgba(0,0,0,0))] box-border caret-transparent h-px break-words w-full left-0 top-0"></div>
+<div class="absolute bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.2),rgba(0,0,0,0))] box-border caret-transparent h-px break-words w-full left-0 bottom-0"></div>
+<div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 bottom-40"></div>
+<div class="relative box-border caret-transparent max-w-[1400px] break-words z-10 mx-auto px-8 md:px-24"><div class="box-border caret-transparent gap-x-12 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-12 md:grid-cols-[repeat(12,minmax(0px,1fr))]"><div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_7] md:col-start-[span_7]"><div class="box-border caret-transparent break-words mb-12"><div class="items-center backdrop-blur-sm bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex break-words gap-y-3 border border-gray-100 mb-8 px-6 py-3 rounded-full border-solid"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-49.svg" alt="Icon" class="text-white box-border caret-transparent h-5 w-5" />
+</div>
+<span class="text-neutral-900 text-base font-bold box-border caret-transparent block leading-6 break-words"><span class="text-teal-500 box-border caret-transparent break-words">24/7</span>
+ Support Available</span>
+<div class="bg-green-500 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+</div>
+<h2 class="text-neutral-900 text-5xl font-black box-border caret-transparent tracking-[-1.2px] leading-[50.4px] break-words mb-6 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">Ask us<span class="relative text-5xl box-border caret-transparent inline-block tracking-[-1.2px] leading-[50.4px] break-words md:text-7xl md:tracking-[-1.8px] md:leading-[72px]"><span class="relative text-transparent text-5xl bg-clip-text bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] box-border tracking-[-1.2px] leading-[50.4px] break-words z-10 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]">anything</span>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-21.svg" alt="Icon" class="absolute text-5xl box-border caret-transparent h-4 tracking-[-1.2px] leading-[50.4px] w-full left-0 -bottom-2 md:text-7xl md:tracking-[-1.8px] md:leading-[72px]" />
+</span>
+</h2>
+<p class="text-neutral-600 text-xl box-border caret-transparent leading-[32.5px] break-words md:text-2xl md:leading-8">Get instant answers to common questions, or speak with our pharmacy team for personalized support.</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex break-words gap-y-3 mt-6"><div class="bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+<div class="bg-teal-500/30 box-border caret-transparent h-2 break-words w-2 rounded-full"></div>
+<div class="bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(59,155,159,0.3))] box-border caret-transparent h-px break-words w-16"></div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words mb-10"><details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">Is Smart Pharmacy a registered pharmacy?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">Yes. Smart Pharmacy is operated by OVIO Ltd, a UK-based distance-selling pharmacy. All medicines are dispensed from our registered premises under the supervision of a GPhC-registered pharmacist. We also work with UK-registered prescribers for all private treatments.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">How does the online consultation process work?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">When you choose a treatment, you&#39;ll complete a secure medical questionnaire. This is reviewed by a qualified prescriber or pharmacist, who may contact you if more information is needed. If your treatment is approved, your medicine will be dispensed and delivered directly to your address.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">How do you make sure medicines are safe for me?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">Every order is checked against your medical history and the answers you provide in your consultation. We use ID and age verification, review for medicine interactions, and follow strict GPhC and MHRA guidance. If anything needs clarification, our team will contact you before dispensing.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">How long does delivery take?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">Once your order has been approved, it is normally dispatched the same or next working day. Delivery times may vary depending on the option you choose at checkout, but most patients receive their medicines within 1–3 working days.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">Who can use Smart Pharmacy?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">Our services are available to adults aged 18 and over who are resident in the UK. Some treatments may have specific age restrictions or medical requirements.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">What&#39;s your delivery policy?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">We offer free delivery on orders over £30. Standard delivery takes 1-3 working days. Express delivery options are also available at checkout. All packages are sent in plain, discreet packaging.</p>
+</div>
+</div>
+</details>
+<details class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent break-words border border-gray-100 overflow-hidden mt-4 rounded-2xl border-solid"><summary class="items-center box-border caret-transparent flex justify-between list-inside list-none break-words p-6 md:p-8"><span class="text-neutral-900 text-lg font-bold box-border caret-transparent block leading-7 break-words pr-4 md:text-xl">Are consultations really free?</span>
+<div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent flex h-10 justify-center break-words w-10 rounded-full md:h-12 md:w-12"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-50.svg" alt="Icon" class="text-white box-border caret-transparent h-6 w-6" />
+</div>
+</div>
+</summary>
+<div class="box-border caret-transparent break-words pb-6 px-6 md:pb-8 md:px-8"><div class="box-border caret-transparent break-words border-gray-100 pt-4 border-t border-solid"><p class="text-neutral-600 text-base box-border caret-transparent leading-[26px] break-words md:text-lg md:leading-7">Yes, all online consultations are completely free. You only pay for your medication if your treatment is approved. There are no hidden consultation fees or charges.</p>
+</div>
+</div>
+</details>
+</div>
+<div class="box-border caret-transparent break-words mt-10"><a href="/pages/faqs" class="text-white text-lg font-bold items-center bg-[linear-gradient(to_right,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-3 inline-flex leading-7 break-words gap-y-3 px-10 py-5 rounded-full hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px]">View All Questions<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-23.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+</div>
+</div>
+<div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_5] md:col-start-[span_5]"><div class="sticky box-border caret-transparent break-words top-24"><div class="relative bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words border border-gray-100 overflow-hidden p-8 rounded-3xl border-solid md:p-10"><div class="absolute bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.05),rgba(0,0,0,0))] box-border caret-transparent blur-2xl h-32 break-words w-32 rounded-full right-0 top-0"></div>
+<div class="relative box-border caret-transparent break-words z-10"><div class="relative box-border caret-transparent inline-block break-words mb-8"><div class="absolute bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent blur-xl opacity-30 break-words rounded-3xl inset-0"></div>
+<div class="relative items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent flex h-20 justify-center break-words w-20 rounded-3xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-51.svg" alt="Icon" class="text-white box-border caret-transparent h-10 w-10" />
+</div>
+</div>
+<h3 class="text-neutral-900 text-3xl font-black box-border caret-transparent leading-[37.5px] break-words mb-4 md:text-4xl md:leading-10">Need more help?</h3>
+<p class="text-neutral-600 text-lg box-border caret-transparent leading-[29.25px] break-words mb-8">Our pharmacy team is here to answer your questions and provide expert guidance on your healthcare journey.</p>
+<div class="box-border caret-transparent break-words"><a href="/pages/contact" class="items-center bg-[linear-gradient(to_right_bottom,rgb(249,250,251),rgb(255,255,255))] box-border caret-transparent gap-x-5 flex break-words gap-y-5 border border-gray-100 p-6 rounded-2xl border-solid hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] hover:border-teal-500"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-52.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><p class="text-neutral-900 text-lg font-black box-border caret-transparent leading-7 break-words mb-1">Email Us</p>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-5 break-words">Get a response within 24 hours</p>
+</div>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-53.svg" alt="Icon" class="text-neutral-400 box-border caret-transparent shrink-0 h-6 w-6" />
+</a>
+<a href="tel://+441234567890" class="items-center bg-[linear-gradient(to_right_bottom,rgb(249,250,251),rgb(255,255,255))] box-border caret-transparent gap-x-5 flex break-words gap-y-5 border border-gray-100 mt-4 p-6 rounded-2xl border-solid hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] hover:border-teal-500"><div class="relative box-border caret-transparent shrink-0 break-words"><div class="relative items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex h-16 justify-center break-words w-16 rounded-2xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-54.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-8 w-8" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><p class="text-neutral-900 text-lg font-black box-border caret-transparent leading-7 break-words mb-1">Call Us</p>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-5 break-words">Mon-Fri, 9am-5pm</p>
+</div>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-53.svg" alt="Icon" class="text-neutral-400 box-border caret-transparent shrink-0 h-6 w-6" />
+</a>
+</div>
+</div>
+</div>
+<div class="relative text-white bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.25)_0px_25px_50px_-12px] box-border caret-transparent break-words overflow-hidden mt-6 p-8 rounded-3xl"><div class="absolute box-border caret-transparent opacity-10 break-words inset-0"><div class="absolute bg-[radial-gradient(circle_at_2px_2px,rgb(255,255,255)_1px,rgba(0,0,0,0)_0px)] bg-size-[30px_30px] box-border caret-transparent break-words inset-0"></div>
+</div>
+<div class="relative box-border caret-transparent break-words z-10"><div class="items-center box-border caret-transparent gap-x-4 flex break-words gap-y-4 mb-6"><div class="items-center backdrop-blur-sm bg-white/20 box-border caret-transparent flex h-16 justify-center break-words w-16 border rounded-2xl border-solid border-white/30"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-55.svg" alt="Icon" class="box-border caret-transparent h-8 w-8" />
+</div>
+<div class="box-border caret-transparent break-words"><h4 class="text-2xl font-black box-border caret-transparent leading-8 break-words">GPhC Registered</h4>
+<p class="text-white/90 text-sm box-border caret-transparent leading-5 break-words">Fully regulated UK pharmacy</p>
+</div>
+</div>
+<p class="text-white/100 text-lg box-border caret-transparent leading-[29.25px] break-words">Registration number: <strong class="font-black box-border caret-transparent break-words">9012842</strong>
+</p>
+</div>
+<div class="absolute bg-white/10 box-border caret-transparent blur-3xl h-32 break-words w-32 rounded-full right-0 top-0"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><footer class="relative bg-[linear-gradient(to_right_bottom,rgb(253,252,250),rgb(248,246,243),rgb(245,243,240))] box-border caret-transparent break-words overflow-hidden"><div class="absolute bg-teal-500/10 box-border caret-transparent blur-3xl h-96 break-words w-96 rounded-full -left-20 -top-20"></div>
+<div class="absolute bg-teal-700/10 box-border caret-transparent blur-3xl h-[500px] break-words w-[500px] rounded-full -right-20 top-40"></div>
+<div class="relative box-border caret-transparent break-words w-full z-10 px-8 py-16 md:p-24"><div class="box-border caret-transparent max-w-[1600px] break-words mx-auto"><div class="box-border caret-transparent gap-x-12 grid grid-cols-[repeat(1,minmax(0px,1fr))] break-words gap-y-12 mb-16 md:grid-cols-[repeat(4,minmax(0px,1fr))]"><div class="box-border caret-transparent col-end-auto col-start-auto break-words md:col-end-[span_1] md:col-start-[span_1]"><a href="/" class="box-border caret-transparent inline-block break-words mb-6"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/new-updated-logo-smart-pharmacy-(1).png" alt="Smart Pharmacy" class="box-border caret-transparent h-16 max-w-full break-words" />
+</a>
+<p class="text-neutral-600 box-border caret-transparent leading-[24.375px] break-words mb-6">Your trusted online pharmacy providing expert healthcare on your terms. NHS-approved, prescription-perfect, delivered tomorrow.</p>
+<div class="items-center box-border caret-transparent gap-x-3 flex break-words gap-y-3"><a href="https://www.facebook.com/profile.php?id=61580748066423" aria-label="Facebook" class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent flex h-12 justify-center break-words w-12 rounded-full hover:text-white hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-56.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+<a href="https://www.instagram.com/everydaymedsuk/" aria-label="Instagram" class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent flex h-12 justify-center break-words w-12 rounded-full hover:text-white hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-57.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+<a href="https://www.tiktok.com/@everydaymeds1?lang=en-GB" aria-label="TikTok" class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent flex h-12 justify-center break-words w-12 rounded-full hover:text-white hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px]"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-58.svg" alt="Icon" class="box-border caret-transparent h-5 w-5" />
+</a>
+</div>
+</div>
+<div class="box-border caret-transparent break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-6">Quick Links</h3>
+<ul class="box-border caret-transparent list-none break-words pl-0"><li class="box-border caret-transparent break-words"><a href="/pages/about-us" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">About Us</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="/pages/contact" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Contact Us</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="https://www.royalmail.com/track-your-item" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Track Your Order</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="/pages/faqs" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">FAQs</a>
+</li>
+</ul>
+</div>
+<div class="box-border caret-transparent break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-6">Legal</h3>
+<ul class="box-border caret-transparent list-none break-words pl-0"><li class="box-border caret-transparent break-words"><a href="/pages/terms-conditions" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Terms &amp; Conditions</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="/pages/privacy-policy" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Privacy Policy</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="/pages/cookie-policy" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Cookie Policy</a>
+</li>
+<li class="box-border caret-transparent break-words mt-3"><a href="/pages/complaints-procedure" class="text-neutral-600 items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2 hover:text-teal-500">Complaints Procedure</a>
+</li>
+</ul>
+</div>
+<div class="box-border caret-transparent break-words"><h3 class="text-neutral-900 text-lg font-bold box-border caret-transparent leading-7 break-words mb-6">Contact</h3>
+<div class="box-border caret-transparent break-words"><div class="items-start box-border caret-transparent gap-x-3 flex break-words gap-y-3"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex shrink-0 h-10 justify-center break-words w-10 rounded-lg"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-59.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+</div>
+<div class="box-border caret-transparent break-words"><p class="text-neutral-900 text-sm font-semibold box-border caret-transparent leading-5 break-words mb-1">Trading Address</p>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-[22.75px] break-words">Smart Pharmacy<br class="box-border caret-transparent break-words" />
+Unit A2 Ivinghoe Business Centre<br class="box-border caret-transparent break-words" />
+LU55BQ</p>
+</div>
+</div>
+<div class="items-start box-border caret-transparent gap-x-3 flex break-words gap-y-3 mt-4"><div class="items-center bg-[linear-gradient(to_right_bottom,rgba(59,155,159,0.1),rgba(44,122,126,0.1))] box-border caret-transparent flex shrink-0 h-10 justify-center break-words w-10 rounded-lg"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-11.svg" alt="Icon" class="text-teal-500 box-border caret-transparent h-5 w-5" />
+</div>
+<div class="box-border caret-transparent break-words"><p class="text-neutral-900 text-sm font-semibold box-border caret-transparent leading-5 break-words mb-1">GPhC Number</p>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-5 break-words">9012842</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="backdrop-blur-sm bg-white/60 box-border caret-transparent break-words border border-gray-100 mb-12 p-6 rounded-2xl border-solid"><div class="items-start box-border caret-transparent gap-x-4 flex flex-col break-words gap-y-4 md:items-center md:flex-row"><div class="box-border caret-transparent shrink-0 break-words"><div class="items-center bg-[linear-gradient(to_right_bottom,rgb(59,155,159),rgb(44,122,126))] box-border caret-transparent flex h-14 justify-center break-words w-14 rounded-xl"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-60.svg" alt="Icon" class="text-white box-border caret-transparent h-7 w-7" />
+</div>
+</div>
+<div class="box-border caret-transparent basis-[0%] grow break-words"><h4 class="text-neutral-900 text-sm font-bold box-border caret-transparent leading-5 break-words mb-1">Company Registration</h4>
+<p class="text-neutral-600 text-sm box-border caret-transparent leading-[22.75px] break-words"><strong class="font-bold box-border caret-transparent break-words">Registered:</strong>
+ Emwhy Pharma, 51 Arnald Way, Houghton Regis, LU55UN</p>
+</div>
+</div>
+</div>
+<div class="box-border caret-transparent break-words border-gray-200 pt-8 border-t border-solid"><div class="items-center box-border caret-transparent gap-x-6 flex flex-col justify-between break-words gap-y-6 md:flex-row"><p class="text-neutral-600 text-sm box-border caret-transparent leading-5 break-words">© 2025 Smart Pharmacy. All rights reserved.</p>
+<div class="items-center box-border caret-transparent gap-x-2 flex break-words gap-y-2"><span class="text-neutral-500 text-xs box-border caret-transparent block leading-4 break-words mr-2">We accept:</span>
+<div class="items-center bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.05)_0px_1px_2px_0px] box-border caret-transparent gap-x-2 flex break-words gap-y-2 px-4 py-2 rounded-lg"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/33.svg" alt="Payment methods" class="box-border caret-transparent h-6 max-w-full break-words" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<section class="box-border caret-transparent break-words"><div class="fixed bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.08)_5px_0px_30px_0px] box-border caret-transparent hidden break-words z-[6] px-[15px] py-[13px] bottom-0 inset-x-0"><a href="/" aria-label="Home" class="text-neutral-900 items-center box-border caret-transparent gap-x-1 inline-flex flex-col shrink-0 justify-center leading-[normal] break-words gap-y-1 text-center w-1/5 px-[5px] font-sofia_pro_light hover:text-red-500 hover:border-red-500"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-25-1.svg" alt="Icon" class="box-border caret-transparent h-5 max-w-full break-words w-5" />
+<span class="text-[13px] font-semibold box-border caret-transparent block break-words">Home</span>
+</a>
+<a href="/account/login" aria-label="Account" class="text-neutral-900 items-center box-border caret-transparent gap-x-1 inline-flex flex-col shrink-0 justify-center leading-[normal] break-words gap-y-1 text-center w-1/5 px-[5px] font-sofia_pro_light hover:text-red-500 hover:border-red-500"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-26-1.svg" alt="Icon" class="box-border caret-transparent h-5 max-w-full break-words w-5" />
+<span class="text-[13px] font-semibold box-border caret-transparent block break-words">Account</span>
+</a>
+<a href="/collections/all" aria-label="Shop" class="text-neutral-900 items-center box-border caret-transparent gap-x-1 inline-flex flex-col shrink-0 justify-center leading-[normal] break-words gap-y-1 text-center w-1/5 px-[5px] font-sofia_pro_light hover:text-red-500 hover:border-red-500"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-27-1.svg" alt="Icon" class="box-border caret-transparent h-5 max-w-full break-words w-5" />
+<span class="text-[13px] font-semibold box-border caret-transparent block break-words">Shop</span>
+</a>
+<a href="/pages/wishlist" aria-label="Wishlist" class="text-neutral-900 items-center box-border caret-transparent gap-x-1 inline-flex flex-col shrink-0 justify-center leading-[normal] break-words gap-y-1 text-center w-1/5 font-sofia_pro_light hover:text-red-500 hover:border-red-500"><span class="relative box-border caret-transparent flex break-words"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-28-1.svg" alt="Icon" class="box-border caret-transparent h-5 max-w-full break-words w-[22px]" />
+<span class="absolute text-white text-[10px] items-center bg-red-500 box-border caret-transparent flex h-[18px] justify-center leading-[10px] break-words w-[18px] overflow-hidden rounded-[50%] left-[13px] -top-1.5">0</span>
+</span>
+<span class="text-[13px] font-semibold box-border caret-transparent block break-words">Wishlist</span>
+</a>
+<a href="/cart" aria-label="Cart" class="text-neutral-900 items-center box-border caret-transparent gap-x-1 inline-flex flex-col shrink-0 justify-center leading-[normal] break-words gap-y-1 text-center w-1/5 font-sofia_pro_light hover:text-red-500 hover:border-red-500"><span class="relative box-border caret-transparent flex break-words"><img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-29-1.svg" alt="Icon" class="box-border caret-transparent h-5 max-w-full break-words w-5" />
+<span class="absolute text-white text-[10px] items-center bg-red-500 box-border caret-transparent flex h-[18px] justify-center leading-[10px] break-words w-[18px] overflow-hidden rounded-[50%] left-[13px] -top-1.5"><span class="box-border caret-transparent block break-words">0</span>
+</span>
+</span>
+<span class="text-[13px] font-semibold box-border caret-transparent block break-words">Cart</span>
+</a>
+</div>
+</section>
+<section class="box-border caret-transparent break-words"></section>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"></div>
+<section class="box-border caret-transparent break-words"></section>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"><div class="box-border caret-transparent break-words"><div class="box-content caret-transparent break-words mr-0 md:box-border md:mr-2.5"><div class="box-content caret-transparent break-words md:box-border"><div class="static bg-transparent box-content caret-transparent break-words transform-none visible z-auto top-auto inset-x-auto md:fixed md:bg-white md:box-border md:translate-y-[-105.0%] md:invisible md:z-[5] md:top-0 md:inset-x-0"><div class="static bg-transparent box-content caret-transparent max-h-none break-words visible z-auto overflow-visible p-0 border-t-0 border-black border-solid md:relative md:bg-white md:border-b-neutral-700 md:border-l-neutral-700 md:border-r-neutral-700 md:border-t-gray-200 md:box-border md:max-h-[800px] md:invisible md:z-10 md:overflow-auto md:px-[15px] md:py-[50.6341px] md:border-t"><div class="box-content caret-transparent max-w-none break-words visible w-auto mx-0 px-0 md:box-border md:max-w-[1470px] md:invisible md:w-[95%] md:mx-auto md:px-[15px]"><div class="box-content caret-transparent break-words visible md:box-border md:invisible"><div class="box-content caret-transparent break-words visible md:box-border md:invisible"></div>
+<span role="status" class="static box-content caret-transparent inline h-auto break-words visible w-auto overflow-visible m-0 md:absolute md:box-border md:block md:h-px md:invisible md:w-px md:overflow-hidden md:-m-px"></span>
+</div>
+<div class="box-content caret-transparent block break-words visible mt-0 md:box-border md:hidden md:invisible md:mt-[15px]"><div class="box-content caret-transparent break-words visible md:box-border md:invisible"><div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible md:box-border md:gap-x-[15px] md:grid md:gap-y-[15px] md:invisible"><span class="text-black font-normal bg-transparent box-content caret-transparent inline shrink h-auto leading-[normal] visible w-auto rounded-none md:text-neutral-900 md:font-semibold md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-5 md:leading-[18.15px] md:break-words md:invisible md:w-[100px] md:rounded-[10px]"></span>
+<div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:gap-y-2.5 md:invisible"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-[34px] md:invisible md:w-[100px] md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-[34px] md:invisible md:w-[100px] md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-[34px] md:invisible md:w-[100px] md:rounded-[10px]"></span>
+</div>
+<div class="box-content caret-transparent gap-x-[normal] block grid-cols-none break-words gap-y-[normal] visible md:box-border md:gap-x-5 md:grid md:grid-cols-[repeat(5,calc(20%_-_12px))] md:gap-y-5 md:invisible"><div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block flex-row break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:flex-col md:gap-y-2.5 md:invisible"><span class="aspect-auto bg-transparent box-content caret-transparent inline shrink break-words visible w-auto rounded-none md:aspect-[3_/_4] md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:invisible md:w-full md:rounded-[10px]"></span>
+<div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible w-auto md:box-border md:gap-x-2.5 md:grid md:justify-items-center md:gap-y-2.5 md:invisible md:w-full"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+</div>
+</div>
+<div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block flex-row break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:flex-col md:gap-y-2.5 md:invisible"><span class="aspect-auto bg-transparent box-content caret-transparent inline shrink break-words visible w-auto rounded-none md:aspect-[3_/_4] md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:invisible md:w-full md:rounded-[10px]"></span>
+<div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible w-auto md:box-border md:gap-x-2.5 md:grid md:justify-items-center md:gap-y-2.5 md:invisible md:w-full"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+</div>
+</div>
+<div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block flex-row break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:flex-col md:gap-y-2.5 md:invisible"><span class="aspect-auto bg-transparent box-content caret-transparent inline shrink break-words visible w-auto rounded-none md:aspect-[3_/_4] md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:invisible md:w-full md:rounded-[10px]"></span>
+<div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible w-auto md:box-border md:gap-x-2.5 md:grid md:justify-items-center md:gap-y-2.5 md:invisible md:w-full"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+</div>
+</div>
+<div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block flex-row break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:flex-col md:gap-y-2.5 md:invisible"><span class="aspect-auto bg-transparent box-content caret-transparent inline shrink break-words visible w-auto rounded-none md:aspect-[3_/_4] md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:invisible md:w-full md:rounded-[10px]"></span>
+<div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible w-auto md:box-border md:gap-x-2.5 md:grid md:justify-items-center md:gap-y-2.5 md:invisible md:w-full"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+</div>
+</div>
+<div class="[align-items:normal] box-content caret-transparent gap-x-[normal] block flex-row break-words gap-y-[normal] visible md:items-center md:box-border md:gap-x-2.5 md:flex md:flex-col md:gap-y-2.5 md:invisible"><span class="aspect-auto bg-transparent box-content caret-transparent inline shrink break-words visible w-auto rounded-none md:aspect-[3_/_4] md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:invisible md:w-full md:rounded-[10px]"></span>
+<div class="box-content caret-transparent gap-x-[normal] block break-words gap-y-[normal] visible w-auto md:box-border md:gap-x-2.5 md:grid md:justify-items-center md:gap-y-2.5 md:invisible md:w-full"><span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+<span class="bg-transparent box-content caret-transparent inline shrink h-auto break-words visible w-auto rounded-none md:bg-neutral-800/20 md:box-border md:block md:shrink-0 md:h-3 md:invisible md:w-4/5 md:rounded-[10px]"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img src="https://c.animaapp.com/mhiyf2riFan5kf/assets/icon-30-1.svg" alt="Icon" class="box-border caret-transparent hidden max-w-full break-words" />
+<ul class="box-border caret-transparent hidden list-none break-words my-[15px] pl-0 font-sofia_pro_light"><li class="box-border caret-transparent break-words">Choosing a selection results in a full page refresh.</li>
+<li class="box-border caret-transparent break-words">Opens in a new window.</li>
+</ul>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"></div>
+<div class="box-border caret-transparent leading-[22.5px] break-words font-gtstandard_m"></div>
+<div class="box-border caret-transparent break-words font-sofia_pro_light"></div>
+<div class="text-black text-base box-border caret-transparent h-0 leading-[normal] break-words origin-[187.5px_0px] w-screen md:origin-[640px_0px]"></div>
+</body>
+
+</html>
